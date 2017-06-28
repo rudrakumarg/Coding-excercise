@@ -1,0 +1,129 @@
+body {
+margin: 0;
+padding: 0;
+}
+.fa-truck {
+		  font-size: 50px;
+		  -webkit-transform:rotateY(180deg);
+		  -moz-transform:rotateY(180deg);
+		  -o-transform:rotateY(180deg);
+		  -ms-transform:rotateY(180deg);
+		}
+
+		.fa-user-secret {
+		  font-size: 80px;
+		  color: brown;
+		}
+
+		.track {
+		    height: 80px;
+		    background-image: url('track.png');
+		   
+		}
+
+		.container{
+			position:relative;
+			margin: 20px auto;
+			padding: 0 50px 0 0;
+			width: 80%;
+			background: url('racing-stripes.jpg') repeat-y 100% 0;
+		}
+		
+
+/*.fa.fa-truck{
+	position: absolute;
+	 left:-5%;
+	 margin-top: 15px;
+}*/
+
+.mask {
+    position: fixed;
+    background: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+}
+
+.popup {
+    background: white;
+    position: fixed;
+    top: 20%;
+    width: 400px;
+    left: 33%;
+    border: 2px solid;
+}
+.heading_bet {
+    border-bottom: 2px solid;
+}
+
+.container_bet {
+    padding: 40px;
+}
+
+button {
+    border: 1px solid;
+    box-shadow: 2px 2px;
+    background: white;
+}
+
+.footer_bet {
+    height: 20px;
+    border-top: 2px solid;
+}
+.popup_bet{
+	display: none;
+}
+.btn_bet {
+    padding: 5px 0px;
+    margin: 0 auto;
+    position: relative;
+    width: 30%;
+}
+.green{
+	color:green;
+} 
+.blue{
+	color: blue;
+} 
+.dark{
+	color: dark;
+} 
+.purple{
+	color: purple;
+} 
+.red{
+	color:red;
+} 
+.pink{
+	color: pink;
+} 
+.orange{
+	color:orange;
+	
+} .cyan {
+	color: cyan;
+}
+
+.raceTrack{
+	display : none;
+}
+
+.main_btn{
+	margin: 0 auto;
+    width: 150px;
+}
+.labeltext{
+	position:relative;
+	height:18px;
+}
+.truck_cont{
+	    position: absolute;
+width:50px;
+    left: -5%;
+    margin-top: 10px;
+}
+.message{width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: red;}

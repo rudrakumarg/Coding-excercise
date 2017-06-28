@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Trucker Template</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="assets/jquery-3.2.0.min.js"></script>
+  <link href="assets/app.css" rel="stylesheet" />
+  <script src="assets/app.js"></script>
+</head>
+
+<body>
+
+	
+	<!--i class="fa fa-truck" style="color: red" aria-hidden="true"></i>
+	
+	
+	<i class="fa fa-truck" style="color: pink" aria-hidden="true"></i>
+	<i class="fa fa-truck" style="color: orange" aria-hidden="true"></i>
+	
+	<i class="fa fa-truck" style="color: cyan" aria-hidden="true"></i-->
+<div class="raceTrack">
+<h2>Mad Trucker </h2>
+<button class="reset">Reset</button>
+	<div class="message"></div>
+	<div class="container">
+		
+		
+			
+		</div>
+		<!--i class="fa fa-truck green" id="green_truck" style="color: green" aria-hidden="true"></i>
+		
+		<div class='track'></div>
+		<i class="fa fa-truck dark" id="dark_truck" style="color: cyan" aria-hidden="true"></i>
+		<div class='track'></div>
+		<i class="fa fa-truck purple" id="pur_truck" style="color: purple" aria-hidden="true"></i>
+		<div class='track'></div>
+		<i class="fa fa-truck blue" id="blu_truck" style="color: blue" aria-hidden="true"></i>
+		<div class='track'></div-->
+		<div>
+		<i class="fa fa-user-secret" aria-hidden="true"></i>
+		<label id="inifunds"></label>
+		</div>
+	
+	<div class="main_btn">
+	<button class="startrace" > Start Race</button>
+	<button class="placebet">Place Bet</button>
+	</div>
+ </div>   
+
+<div class="mask popup_bet"></div>
+<div class="popup popup_bet">
+	<div class="heading_bet">Place bet</div>
+	<div class="container_bet">
+	
+	</div>
+	<div class="btn_bet">
+	<button class="bet"> Bet</button>
+	<button class="cancelbet">Cancel</button>
+	</div>
+	<div class="footer_bet"></div>
+</div>
+
+<div class="popup popup_setup">
+	<div class="heading_bet">Game Setup</div>
+	<div class="container_bet">
+	<div>
+		<span> player</span>
+		<span><input type='text' value="Player1" /></span>
+	</div>
+	<div>
+		<span> Number of Truckers</span>
+		<span><select class="noTrucks"> 
+			<option selected disabled>Choose here</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4" selected >4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select></span>
+	</div>
+	<div>
+		<span> Initial Funds</span>
+		<span><input type='text' id="inputfunds" value="1000.00" /> </span>
+	</div>
+	</div>
+	<div class="btn_bet">
+	<button class="startgame" >Start Game</button>
+	</div>
+	<div class="footer_bet"></div>
+</div>
+<script>
+	window.init = new DIGITANDO.INIT();
+		window.init.preload();
+	</script>
+</script>
+</body>
+</html>
